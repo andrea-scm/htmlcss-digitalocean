@@ -13,7 +13,8 @@
   src: url('fonts/Roboto-Bold.ttf');
 }
 
-section{
+section,
+footer{
   padding: 60px 10px;
   font-family: Roboto-Medium;
 }
@@ -225,7 +226,8 @@ section{
   text-decoration: none;
 }
 
-.dark-blue-bg{
+.dark-blue-bg,
+footer{
   background-color: #031b4e;
 }
 
@@ -287,4 +289,65 @@ section{
 .blue-bg > .container > .row > a:hover{
   text-decoration: none;
   opacity: .7;
+}
+
+footer > .container > .row > [class ^= 'col-'] > ul{
+  padding: 0;
+}
+
+footer > .container > .row > .col-md-4 > ul > li{
+  display: inline-block;
+  margin:20px 15px 0 0;
+}
+
+footer > .container > .row > .col-md-2 > ul > li{
+  list-style-type: none;
+  padding: 0;
+}
+
+footer > .container > .row > .col-md-4 > p,
+footer > .container > .row > .col-md-4 > a,
+footer > .container > .row > [class ^= 'col-'] > ul > li > a{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer > .container > .row > [class ^= 'col-'] > ul > li > a:hover,
+footer > .container > .row > .col-md-4 > a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer > .container > .row > .col-md-4 > p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+footer > .container > .row > .col-md-2 > h6{
+  color: #fff;
+  font-size: 14px;
+}
+
+footer > .container > .row > .col-md-2 > ul > li{
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 576px){
+  .nav{
+    display: none;
+  }
+  .header-button{
+    display: none;
+  }
+  .smartphone-tablet_responsive{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .nav{
+    display: none;
+  }
+  .smartphone-tablet_responsive{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
 }
