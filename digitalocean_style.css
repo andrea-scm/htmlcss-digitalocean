@@ -1,0 +1,190 @@
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url('fonts/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url('fonts/Roboto-Medium.ttf');
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url('fonts/Roboto-Bold.ttf');
+}
+
+section{
+  padding: 60px 10px;
+  font-family: Roboto-Medium;
+}
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  border: none;
+  font-family: Roboto-Medium;
+  margin-bottom: 0;
+}
+
+.container-header{
+  padding: 5px 40px;
+  position: relative;
+  height: 100%;
+}
+
+.navbar-header > h3{
+  font-size: 20px;
+  color: #0049ff;
+}
+
+.navbar-nav{
+  margin-top: 8px;
+  margin-left: 40px;
+  font-size: 16px;
+}
+
+.navbar-nav > li > a{
+  color: black !important;
+}
+
+.navbar-nav > li :hover{
+  color: #0049ff !important;
+}
+
+.nav-bar-select{
+  padding: none;
+  border: none;
+  margin-top: 15px;
+}
+
+.header-button{
+  float: right;
+  margin-top: 15px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid #0049ff;
+  background-color: #fff;
+  color: #0049ff;
+}
+
+.blue-bg{
+  background-color: #0049ff;
+}
+
+.blue-bg > .container > .row > .col-md-6 > h1{
+  font-family: Roboto-Bold;
+  font-size: 60px;
+  color: #fff;
+}
+
+.blue-bg > .container > .row > .col-md-6 > p{
+  font-family: Roboto-Regular;
+  font-size: 22px;
+  color: rgba(255, 255, 255, .6);
+  margin-top: 15px;
+}
+
+.mg-top{
+  margin-top: 60px;
+}
+
+.mg-bot{
+  margin-bottom:80px;
+}
+
+.sign-in-box{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+
+.sign-in-box > h3{
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.sign-in-box > input{
+  width: 90%;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.sign-in-box > button{
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: #fff;
+  width: 90%;
+  margin-bottom: 15px;
+  border: none;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.sign-in-box > button > a{
+  color: #757575;
+  font-size: 20px;
+}
+
+.green-box{
+  background-color: #15cd72 !important;
+  box-shadow: none !important;
+}
+
+.sign-in-box > .green-box > a{
+  color: white;
+}
+
+.sign-in-box > p{
+  font-size: 12px;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sign-in-box > p > span > a{
+  text-decoration: underline;
+}
+
+.gray-bg{
+  background-color: #f3f5f9;
+  padding: 40px 10px;
+}
+
+.gray-bg > .container > .row > .col-md-12 > h3{
+  color: #939eb5;
+  font-size: 20px;
+}
+
+.gray-bg > .container > .row > .col-md-12 > ul{
+  padding: 0;
+}
+
+.gray-bg > .container > .row > .col-md-12 > ul > li{
+  display: inline-block;
+  padding: 0 23px;
+}
+
+.gray-bg > .container > .row > .col-md-12 > ul > li > img{
+  width: 100%;
+  height: 80px;
+}
+
+.gray-bg > .container > .row > .col-md-12 > ul > li:last-child > img{
+  height: 45px;
+}
+
+.gray-bg > .container > .row > .col-md-12 > a:hover{
+  text-decoration: none;
+}
+
+.white-bg > .container > .row > h1{
+  color: #031b4e;
+  margin-bottom: 20px;
+}
+
+.white-bg > .container > .row > p{
+  color: #4e5f83;
+  font-size: 18px;
+  padding: 5px 30px;
+}
