@@ -233,6 +233,40 @@ section{
   color: white;
   font-family: Roboto-Bold;
   font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.dark-blue-bg > .container > .row > .col-md-6 > ul > li{
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 40px;
+}
+
+.dark-blue-bg > .container > .row > .col-md-6 > ul{
+  position: relative;
+}
+
+.dark-blue-bg > .container > .row > .col-md-6 > ul:not(:last-child){
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.dark-blue-bg > .container > .row > .col-md-6 > ul > li:first-child{
+  color: white;
+  position: absolute;
+  left: 0;
+  margin-left: 0 !important;
+}
+
+.dark-blue-bg > .container > .row > .col-md-6 > ul > li > a{
+  color: #01d7d2;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.dark-blue-bg > .container > .row > .col-md-6 > ul > li > a:hover{
+  text-decoration: none;
+  color:#0049ff;
 }
 
 
